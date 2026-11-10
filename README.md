@@ -10,7 +10,7 @@ Run this once in the R console, from the project folder:
 source("setup.R")
 ```
 
-It installs any of this project's packages that are missing: tidyverse, rmarkdown, here, scales, mgcv, broom.
+It installs any of this project's packages that are missing: readr, dplyr, tidyr, ggplot2, scales, mgcv, broom, here, rmarkdown.
 
 ## Open the project
 

@@ -5,5 +5,7 @@ title: "Association and Smoothers"
 Use `inputs/raw/infant_mortality_countries.csv`. Plot the relationship, then compare loess, GAM, and linear smoothers.
 
 ```{r}
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(ggplot2)
 ```

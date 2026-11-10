@@ -5,5 +5,7 @@ title: "Plotting Models"
 Use `inputs/raw/nhanes_2021_2023_analysis.csv`. Fit a model, then plot its predictions **over the data**. Does the model look right?
 
 ```{r}
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(ggplot2)
 ```
