@@ -2,7 +2,7 @@
 title: "Plotting Models"
 ---
 
-Use `inputs/raw/nhanes_2021_2023_analysis.csv`. Fit a model, then plot its predictions **over the data**. Does the model look right?
+Use `inputs/raw/nhanes_2021_2023_analysis.csv`. Fit a model, then plot its predictions **over the data**. Print the coefficient table and the F-test comparing the two models (with and without the age-by-gender interaction). Does the model look right? Compare the lines with binned means or residuals, in addition to the coefficient table.
 
 ```{r}
 library(readr)

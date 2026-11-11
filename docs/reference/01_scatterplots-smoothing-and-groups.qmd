@@ -105,7 +105,7 @@ Countries with higher per-capita income tend to have lower infant mortality, but
 
 # Use A Log Income Scale
 
-Income is positive and right-skewed. A log scale is typically appropriate for income and makes the associations easier to inspect. Note that this transforms the figure only and not the underlying data.
+Income is positive and right-skewed. A log scale is typically appropriate for income and makes the associations easier to inspect. The data aren't changed, but `geom_smooth()` fits on the transformed scale, so a straight line on this axis is a straight line in log income.
 
 <!-- plot-anatomy-start -->
 ::: {.plot-anatomy}

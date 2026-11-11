@@ -2,7 +2,7 @@
 
 Part of the workshop **Data Visualization With AI**. Prompts are on the workshop page.
 
-## Install packages
+## Installing packages
 
 Run this once in the R console, from the project folder:
 
@@ -12,7 +12,7 @@ source("setup.R")
 
 It installs any of this project's packages that are missing: readr, dplyr, tidyr, ggplot2, scales, mgcv, broom, here, rmarkdown.
 
-## Open the project
+## Opening the project
 
 - **RStudio:** open the `.Rproj` file.
 - **Positron or VS Code:** open this folder.
@@ -20,15 +20,15 @@ It installs any of this project's packages that are missing: readr, dplyr, tidyr
 
 You need R and Quarto (bundled with RStudio and Positron). `setup.R` installs the packages.
 
-## What's here
+## Contents
 
 | Notebook | Use |
 |---|---|
 | `notebooks/01_association.qmd` | Scatterplots and smoothers |
 | `notebooks/02_model-plots.qmd` | Model predictions, interactions, and diagnostics |
 
-The check that matters: plot the model over the data. If the line doesn't follow the points, the model is wrong, however good the table looks.
+The key check is to plot the model over the data. If the line doesn't follow the points, the model is wrong, however good the table looks. A significant interaction can still leave curvature that a straight line misses. Look at the ends of the age range.
 
-## About the folders
+## Folder layout
 
-This project was created from a [Framework](https://framework.pub) blueprint, so it has the layout of a real analysis project: data in `inputs/raw/` (codebooks in `inputs/raw/codebooks/`), your notebooks in `notebooks/`, and results in `outputs/`. `docs/reference/` holds worked reference notebooks from Erik's data visualization course; compare them with what your assistant produces. You don't need the framework R package.
+This project was created from a [Framework](https://framework.pub) blueprint, so it has the layout of a real analysis project: data in `inputs/raw/` (codebooks in `inputs/raw/codebooks/`), your notebooks in `notebooks/`, and results in `outputs/`. `docs/reference/` holds worked reference notebooks from Erik's data visualization course. Compare them with what your assistant produces. You don't need the framework R package.
